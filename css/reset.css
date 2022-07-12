@@ -139,21 +139,3 @@ button {
     outline: none;
 }
 
-/* Порядок атрибутів:
-class
-id, name
-data-*
-src, for, type, href
-title, alt
-aria-*, role
-
-=====================================================
-<a class="..." id="..." data-modal="toggle" href="#">
-Какая-то ссылка
-</a>
-
-<input class="form-control" type="text">
-
-<img src="..." alt="...">
-=====================================================
-*/

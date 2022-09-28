@@ -5,6 +5,7 @@
   --logo-positive-color: #000;
   --logo-negative-color: #fff;
   --grey: #757575;
+  --grey-contacts: rgba(255, 255, 255, 0.6);
   --black: #212121;
   --white: #fff;
   --background-brand-color: #2f303a;
@@ -97,7 +98,7 @@ body {
 .order-button {
   padding: 10px 32px;
   border-radius: 4px;
-  border: transparent;
+  border-color: transparent;
 
   font-family: inherit;
   font-weight: 700;
@@ -180,7 +181,7 @@ body {
   text-decoration: none;
   font-size: 14px;
   line-height: 1.71;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--grey-contacts);
 }
 
 .footer-contacts-address {
@@ -201,6 +202,7 @@ body {
 
 /* кнопки */
 .filter-button {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;

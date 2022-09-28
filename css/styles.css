@@ -154,6 +154,10 @@ body {
   background-color: var(--background-btn-color);
 }
 
+.employee-item {
+  background-color: white;
+}
+
 .employee-name {
   font-weight: 500;
   font-size: 16px;
